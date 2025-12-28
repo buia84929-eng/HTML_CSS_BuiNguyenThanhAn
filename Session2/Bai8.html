@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse; /* Gộp viền đơn */
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black; /* Đường kẻ màu đen */
+            padding: 8px;
+            text-align: center;
+        }
+        .title {
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none; /* Bỏ viền cho tiêu đề lớn */
+        }
+        .bold-text {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td colspan="4" class="title">Quản lý sinh viên</td>
+    </tr>
+
+    <tr class="bold-text">
+        <td>ID</td>
+        <td>Họ và tên</td>
+        <td>Điểm</td>
+        <td>Xếp loại</td>
+    </tr>
+
+    <tr class="bold-text">
+        <td colspan="4">Khóa A</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Trần Xuân Sơn</td>
+        <td>7</td>
+        <td>Khá</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Nguyễn Xuân Sơn</td>
+        <td>8</td>
+        <td></td>
+    </tr>
+
+    <tr class="bold-text">
+        <td colspan="4">Khóa B</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Trịnh Xuân Sơn</td>
+        <td>5</td>
+        <td>Trung bình</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Hoàng Xuân Sơn</td>
+        <td>10</td>
+        <td>Giỏi</td>
+    </tr>
+
+    <tr class="bold-text">
+        <td colspan="2">TỔNG CỘNG</td>
+        <td>7.5</td>
+        <td>Khá</td>
+    </tr>
+</table>
+
+</body>
+</html>
