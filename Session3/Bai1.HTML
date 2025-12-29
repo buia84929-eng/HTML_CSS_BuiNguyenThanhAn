@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web của Suu</title>
+</head>
+<body>
+    <h2><strong>Form Đặt Lịch Tư Vấn Học Tập</strong></h2>
+    <form action="" method="post">
+        <label for="name">Họ và Tên:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="date">Chọn ngày giờ:</label>
+        <input type="datetime-local" id="date" name="date" required><br><br>
+
+        <label for="topic">Loại dịch vụ:</label> 
+        <select id="topic" name="topic" required>
+            <option value="hoc-tap">Tư vấn học tập</option>
+            <option value="tư-vấn">Hướng nghiệp</option>
+        </select><br><br>
+
+        <label for="notes">Ghi chú:</label>
+        <textarea id="notes" name="notes" rows="2" cols="20"></textarea><br><br>
+    </form>
+
+        <input type="submit" value="Đặt Lịch">
+</body>
+</html>
