@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký lịch khám</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+    body {
+        font-family:"Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f8faff; /* Màu nền xanh nhạt */
+        text-align: center;
+    }
+    header {
+        background-color: #c4f2e8;
+        padding: 15px;
+        color: #008080;
+    }
+    nav {
+        padding: 10px;
+        background-color: #e6f7ff;
+    }
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #0066cc;
+    }
+    main {
+        padding: 20px;
+    }
+    form {
+        display: inline-block;
+        text-align: left;
+        width: 300px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        color: #006666;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        box-sizing: border-box; /* Giúp padding không làm tràn chiều rộng */
+    }
+    button {
+        background-color: #008080; /* Màu nền nút */
+        color:white; /* Màu chữ nút */
+        padding :10px20px; /* Khoảng cách trong nút */
+        border:none; /* Không viền */
+        font-weight:bold; /* Chữ đậm */
+        cursor:pointer; /* Con trỏ chuột khi di chuyển đến nút */
+        width :100%; /* Chiều rộng đầy đủ của form */
+        margin-top :10px; /* Khoảng cách phía trên nút */
+}
+footer {
+    background-color:#333333 ; /* Màu nền footer */
+    color:white ; /* Màu chữ footer */
+    padding :15px ; /* Khoảng cách trong footer */
+    position :fixed ; /* Vị trí cố định dưới cùng màn hình */
+    bottom :0 ; /* Dán dưới cùng màn hình */
+    width :100% ; /* Chiều rộng đầy đủ màn hình */
+    font-size :14px ; /* Cỡ chữ footer */
+
+}
+  form {
+    text-align: center;
+  }
+button:hover {
+    background-color: #006666; 
+}
+</style>
+</head>
+<body>
+    <h1>Đăng ký lịch khám</h1>
+     <div class="menu">
+            <a href="index.html">Trang chủ</a>&nbsp;
+            <a href="services.html">Dịch vụ</a>&nbsp;
+            <a href="appointment.html">Đăng ký lịch khám</a>
+        </div>
+    <form>
+        <div class="form-group">
+            <label>Họ và tên</label>
+            <input type="text" placeholder="Nhập họ tên">
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="example@gmail.com">
+        </div>
+        <div class="form-group">
+            <label>Số điện thoại</label>
+            <input type="tel">
+            </div>
+        <div class="form-group">
+            <label>Chọn dịch vụ</label>
+            <select>
+                <option>Khám răng tổng quát</option>
+                <option>Niềng răng</option>
+                <option>Tẩy trắng răng</option>
+            </select>
+        </div>
+            <div class="form-group">
+                <label>Ngày khám</label>
+                <input type="date">
+            </div>
+
+            <div class="form-group">
+                <label>Ghi chú thêm</label>
+                <textarea rows="3" placeholder="Yêu cầu thêm..."></textarea>
+            </div>
+
+            <button type="submit">Gửi đăng ký</button>
+        </form>
+     <div class="footer">
+            <p>© 2026 Nha Khoa Chăm Sóc Nụ Cười Việt</p>
+            <p>Địa chỉ: 123 Đường Nụ Cười - Hotline: 0900 000 000</p>
+        </div>
+</body>
+</html>
