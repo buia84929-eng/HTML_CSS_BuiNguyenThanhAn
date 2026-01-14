@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gói chăm sóc răng</title>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'cursive', sans-serif; /* Sử dụng font chữ cursive theo yêu cầu */
+        }
+
+        /* Khung chính của card */
+        .card {
+            width: 350px;
+            background-color: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative; /* Làm gốc tọa độ cho nhãn HOT */
+        }
+
+        /* Phần đầu màu xanh */
+        .card-header {
+            background-color: #40f3ea;
+            padding: 30px 10px;
+            text-align: center;
+        }
+
+        .card-header h2 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        /* Nhãn HOT sử dụng position absolute */
+        .badge-hot {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        /* Phần nội dung chi tiết */
+        .card-body {
+            padding: 20px 30px;
+        }
+
+        .info-row {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            color: #555;
+            font-size: 18px;
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .highlight-green {
+            color: #2ecc71;
+            font-weight: bold;
+        }
+
+        /* Nút Đặt lịch ngay */
+        .btn-booking {
+            display: block;
+            width: 80%;
+            margin: 20px auto 30px auto;
+            background-color: #00d8ff;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .btn-booking:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+    <div class="badge-hot">HOT</div>
+
+    <div class="card-header">
+        <h2>GÓI CHĂM SÓC RĂNG</h2>
+    </div>
+
+    <div class="card-body">
+        <div class="info-row">Dịch vụ: <span class="highlight-green">Tẩy trắng răng</span></div>
+        <div class="info-row">Công nghệ: Laser Whitening</div>
+        <div class="info-row">Thời gian: <span class="highlight-green">60 phút</span></div>
+        <div class="info-row">Bảo hành: <span class="highlight-green">6 tháng</span></div>
+        <div class="info-row">Giá ưu đãi: <span class="highlight-green">1.600.000 đ</span></div>
+    </div>
+    <a href="#" class="btn-booking">ĐẶT LỊCH NGAY</a>
+    </div>
+</body>
+</html>
