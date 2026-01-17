@@ -54,7 +54,7 @@ a {
   background: #1a73e8;
   color: #fff;
   font-weight: 600;
-  transition: transform 0.25s ease, opacity 0.25s ease, background 0.25s ease; /* TRANSITION */
+  transition: transform 0.25s ease, opacity 0.25s ease; 
 }
 
 .btn:hover {
@@ -273,10 +273,6 @@ a {
   background-position: center;
 }
 
-
-
-
-
 .profile__overlay span {
   padding: 10px 12px; /* BOX MODEL */
   border-radius: 999px;
@@ -367,4 +363,3 @@ a {
   transform: translateY(-4px) rotate(-6deg); /* TRANSFORM */
   opacity: 0.95; /* OPACITY */
 }
-
